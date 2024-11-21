@@ -1,0 +1,315 @@
+/* 1. Wrapper and Container -----------------------*/
+.whole-wrapper{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+
+    background-color:white;
+}
+
+.header-wrapper{
+    position: fixed;
+    width: 100%;
+    height: 150px;
+
+    background-color:yellow;
+}
+
+.header-top{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+
+    background-color: skyblue;
+}
+
+.header-bottom{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    margin-top: 100px;
+
+    background-color: whitesmoke;
+}
+
+.body-wrapper{
+    position: fixed;
+    width: 100%;
+    height: 709px;
+    margin-top: 150px;
+
+    background-color:white;
+}
+
+.footer-wrapper{
+    position: fixed;
+    width: 100%;
+    height:50px;
+    margin-top: 859px;
+
+    background-color:dimgray;
+}
+
+.header-top-container{
+    position: fixed;
+    width: 941px;
+    height: 70px;
+    margin-left: 454px;
+    margin-top: 16px;;
+    background-color:black;
+}
+.header-bottom-container{
+    
+    position: fixed;
+    width: 941px;
+    height: 100px;
+    margin-left: 454px;
+    margin-top:  0px;
+
+
+    background-color:red;
+}
+
+.body-wrapper-container{
+    position: fixed;
+    width: 941px;
+    height: 644px;
+    margin-left: 454px;
+    margin-top: 35px;
+    background-color: lightcyan;
+}
+.footer-wrapper-container{
+    position: fixed;
+    width: 941px;
+    height: 50px;
+    margin-left: 454px;
+    margin-top: 0px;
+    background-color: wheat;
+}
+/* 1. Wrapper and Container ---------------------END */
+
+
+/* 2. Header-top-container */
+
+.website-logo{
+    position: fixed;
+    width: 224px;
+    height: 50px;
+
+    background-color: lightyellow;
+}   
+
+.search-box{
+    position: fixed;
+    width: 336px;
+    height: 60px;
+    margin-left: 248px;
+    background-color: green;
+}
+.input{
+    position: fixed;
+    width: 277px;
+    height: 50px;
+    margin-left: 0px;
+    background-color: rgb(119, 134, 167);
+}
+.search-button{
+    position: fixed;
+    width: 53px;
+    height: 50px;
+    margin-left: 283px;
+    background-color: darkseagreen;
+}
+
+.header-top-right{
+    position: fixed;
+    width: 158px;
+    height: 70px;
+    margin-left: 783px;
+    background-color: pink;
+
+}
+.header-top-right-text{
+    position: fixed;
+    width: 148px;
+    height: 30px;
+    margin-left: 10px;
+    background-color: purple;
+}
+.header-top-right-nav{
+    position: fixed;
+    width: 148px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 30px;
+    background-color: orange; 
+}
+
+/* 2. Header-bottom-container */
+
+.header-bottom-container-nav{
+    position: fixed;
+    width: 437px;
+    height: 40px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-color: rgb(230, 224, 215); 
+}
+.header-bottom-container-right{
+    position: fixed;
+    width: 437px;
+    height: 40px;
+    margin-left: 504px;
+    margin-top: 0px;
+    background-color: rgb(75, 68, 57); 
+}
+.topic-box-box{
+    position: fixed;
+    width: 115px;
+    height: 30px;
+    margin-left: 322px;
+    margin-top: 0px;
+    background-color: rgb(79, 190, 181); 
+}
+.fren-request-box{
+    position: fixed;
+    width: 115px;
+    height: 30px;
+    margin-left: 174px;
+    margin-top: 0px;
+    background-color: rgb(191, 201, 200);
+}
+
+/* 3. body-wrapper-container */
+.left-box{
+    position: fixed;
+    width: 195px;
+    height: 640px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-color: lightsteelblue;
+}
+
+.right-box{
+    position: fixed;
+    width: 195px;
+    height: 640px;
+    margin-left: 746px;
+    margin-top: 0px;
+    
+    background-color: rgb(184, 186, 189);
+}
+.central-box{
+    position: fixed;
+    width: 492px;
+    height: 640px;
+    margin-left: 225px;
+    margin-top: 0px;
+    
+    background-color: rgb(166, 207, 175);
+}
+
+/* 4. footer-wrapper-container */
+
+.footer-nav{
+    position: fixed;
+    width: 425px;
+    height: 40px;
+        
+    background-color:pink;
+}
+.copyright{
+    position: fixed;
+    width: 88px;
+    height: 40px;
+    
+    margin-left: 853px;
+    background-color:rgb(175, 152, 156);
+}
+
+/* left-box-container*/
+
+.recentsearches-one{
+    position: fixed;
+    width: 195px;
+    height: 168px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-color: rgb(112, 100, 100);
+}
+
+.recentsearches-one-title{
+    position: fixed;
+    width: 195px;
+    height: 50px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-color: rgb(138, 223, 138);
+}
+.recentsearches-two{
+    position: fixed;
+    width: 195px;
+    height: 472px;
+    margin-left: 0px;
+    margin-top: 168px;
+    background-color: rgb(194, 180, 180);
+}
+.video-tutorial{
+    position: fixed;
+    width: 195px;
+    height: 640px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-color: rgb(78, 0, 102);
+}
+.video-tutorial-tital{
+    position: fixed;
+    width: 195px;
+    height: 50px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-color: rgb(88, 84, 84);
+}
+
+/*central-box container */
+
+.central-header-title{
+    position: fixed;
+    width: 492px;
+    height: 20px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-color: rgb(3, 34, 10);
+}
+.central-header{
+    position: fixed;
+    width: 492px;
+    height: 101px;
+    margin-left: 0px;
+    margin-top: 30px;
+    background-color: rgb(27, 219, 69);
+}
+.central-header-first{
+    position: fixed;
+    width: 492px;
+    height: 50px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-color: rgb(216, 35, 74);
+}
+.central-header-second{
+    position: fixed;
+    width: 492px;
+    height: 50px;
+    margin-left: 0px;
+    margin-top: 50px;
+    background-color: rgb(172, 129, 138);
+}
+.central-content{
+    position: fixed;
+    width: 492px;
+    height: 114px;
+    margin-left: 0px;
+    margin-top: 131px;
+    background-color: rgb(153, 177, 19);
+}
